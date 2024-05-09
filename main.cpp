@@ -44,7 +44,7 @@ class obj {
 private:
     float x;
     float y;
-    std::vector<std::vector<std::vector<int>>> points;//{[(x,y),(connections),[(x,y),(connections)]])]}
+    const std::vector<std::vector<std::vector<int>>> points;//{[(x,y),(connections),[(x,y),(connections)]])]}
     int color = 0;
 
 public:
